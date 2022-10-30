@@ -6,33 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Zachary Schultz">
+    <link rel="stylesheet" href="style.css">
     <title>Home | MI349 Blog | Zachary Schultz</title>
 </head>
 
 <body>
     <header>
-        <p>MI 349 Blog | Zachary Schultz</p>
+        <p class="title-header">MI 349 Blog | Zachary Schultz</p>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="btn"><a href="index.html">Home</a></li>
+                <li class="btn"><a href="about.html">About</a></li>
+                <li class="btn"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h1>Home</h1>
+            <h1 class="text-centered">Home</h1>
         </section>
-        <hr>
-        <article>
-            <h2>Undergrad Research at SPARTIE Lab</h2>
+        <article class="centered">
+            <h2 class="title">Undergrad Research at SPARTIE Lab</h2>
             <address>
                 <p>Written by Zachary Schultz<br>
                     Published <time datetime="2022-10-13">10-13-2022</time></p>
             </address>
             <figure>
-                <img width="500" title="Zachary in front of his UURAF poster" src="uuraf-2022.jpg"
+                <img id="img-uuraf" title="Zachary in front of his UURAF poster" src="uuraf-2022.jpg"
                     alt="Zachary in front of his UURAF poster">
                 <figcaption>
                     <p>Zachary in front of his UURAF poster</p>
@@ -55,14 +55,14 @@
                 Communication Arts and Sciences building at MSU. Zachary is still a member of SPARTIE Lab engaging with
                 Virtual Reality research.</p>
         </article>
-        <article>
-            <h2>Spartan Linux Users Group (SLUG)</h2>
+        <article class="centered">
+            <h2 class="title">Spartan Linux Users Group (SLUG)</h2>
             <address>
                 <p>Written by Zachary Schultz<br>
                     Published <time datetime="2022-10-13">10-13-2022</time></p>
             </address>
             <figure>
-                <img width="500" title="Zachary at Sparticipation promoting Spartan Linux Users Group" src="slug.jpg"
+                <img id="img-sparticipation" title="Zachary at Sparticipation promoting Spartan Linux Users Group" src="slug.jpg"
                     alt="Zachary at Sparticipation promoting Spartan Linux Users Group">
                 <figcaption>
                     <p>Zachary at Sparticipation promoting Spartan Linux Users Group</p>
@@ -81,36 +81,36 @@
                 Linux projects. As gaming on Linux becomes more common due to the Steam Deck, made by Valve, the club
                 has been sharing excited to discuss how to get the best gaming experience on Linux. Information about
                 SLUG can be found at <a href=https://mirrors.egr.msu.edu>https://mirrors.egr.msu.edu</a>.</p>
-                <table>
+                <table class="centered">
                     <tr>
-                        <th>Date</th>
-                        <th>Location</th>
-                        <th>Topic</th>
+                        <th class="text-centered">Date</th>
+                        <th class="text-centered">Location</th>
+                        <th class="text-centered">Topic</th>
                     </tr>
                     <tr>
-                        <td><time datetime="2022-10-05">10-05-2022</time></td>
-                        <td>EB 1225</td>
-                        <td>Intro to ZSH</td>
+                        <td class="text-centered"><time datetime="2022-10-05">10-05-2022</time></td>
+                        <td class="text-centered">EB 1225</td>
+                        <td class="text-centered">Intro to ZSH</td>
                     </tr>
                     <tr>
-                        <td><time datetime="2022-10-12">10-12-2022</time></td>
-                        <td>EB 1225</td>
-                        <td>Intro to Vim</td>
+                        <td class="text-centered"><time datetime="2022-10-12">10-12-2022</time></td>
+                        <td class="text-centered">EB 1225</td>
+                        <td class="text-centered">Intro to Vim</td>
                     </tr>
                     <tr>
-                        <td><time datetime="2022-10-19">10-19-2022</time></td>
-                        <td>EB 1225</td>
-                        <td>Gaming on Linux</td>
+                        <td class="text-centered"><time datetime="2022-10-19">10-19-2022</time></td>
+                        <td class="text-centered">EB 1225</td>
+                        <td class="text-centered">Gaming on Linux</td>
                     </tr>
                 </table>
         </article>
-        <section>
-            <h2>Newsletter</h2>
-            <form>
+        <section class="centered">
+            <h2 class="title text-centered">Newsletter</h2>
+            <form class="centered">
                 <label>Sign up for our newsletter:
                     <input type="text">
                 </label>
-                <button>Subscribe</button>
+                <button type="button">Subscribe</button>
             </form>
         </section>
     </main>
