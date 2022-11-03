@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <header>
-        <p class="title-header">MI 349 Blog | Zachary Schultz</p>
+    <header class="sticky">
+        <p class="title-header text-centered">MI 349 Blog | Zachary Schultz</p>
         <nav>
-            <ul>
+            <ul class="flex-c f-space-around">
                 <li class="btn"><a href="index.html">Home</a></li>
                 <li class="btn"><a href="about.html">About</a></li>
                 <li class="btn"><a href="contact.html">Contact</a></li>
@@ -23,64 +23,82 @@
     </header>
     <main>
         <section>
-            <h1 class="text-centered">Home</h1>
+            <h1 class="text-centered title">Home</h1>
         </section>
-        <article class="centered">
-            <h2 class="title">Undergrad Research at SPARTIE Lab</h2>
-            <address>
-                <p>Written by Zachary Schultz<br>
-                    Published <time datetime="2022-10-13">10-13-2022</time></p>
-            </address>
-            <figure>
-                <img id="img-uuraf" title="Zachary in front of his UURAF poster" src="uuraf-2022.jpg"
-                    alt="Zachary in front of his UURAF poster">
-                <figcaption>
-                    <p>Zachary in front of his UURAF poster</p>
-                </figcaption>
-            </figure>
-            <p>After Zachary Schultz transferred to Michigan State University (MSU) from Oakland University, he got
-                involved with research at SPARTIE Lab. On one of his first days as a transfer student, Zachary was
-                sitting in MI 101. Dr. Ratan, the professor for MI 101, mentioned his podcast. After class Zachary went
-                on YouTube to listen to some episodes of the podcast and he was immediately interested in the virtual
-                reality research Dr. Ratan conducts. Fast forward and Zachary began getting involved doing research
-                within SPARTIE Lab, Dr. Ratan’s lab. Zachary quickly became immersed in cutting edge virtual reality
-                research. He worked with other undergraduate students assisting graduate students to develop a
-                simulation for an experiment using Unity. Zachary and some of the other undergraduates wanted to share
-                the super interesting research happening at SPARTIE Lab. MSU has a forum for undergraduates to share
-                their research called University Undergraduate Research and Arts Forum (UURAF). Zachary designed a
-                poster to describe the virtual reality experiment and the development tools the group uses. Zachary also
-                took on an independent side research project looking into existing research regarding potential health
-                risks associated virtual reality technologies. He turned his findings another poster. Zachary presented
-                both posters at UURAF. As of <time datetime="2022-10">October 2022</time>, one of his research posters is on display within the College of
-                Communication Arts and Sciences building at MSU. Zachary is still a member of SPARTIE Lab engaging with
-                Virtual Reality research.</p>
-        </article>
-        <article class="centered">
-            <h2 class="title">Spartan Linux Users Group (SLUG)</h2>
-            <address>
-                <p>Written by Zachary Schultz<br>
-                    Published <time datetime="2022-10-13">10-13-2022</time></p>
-            </address>
-            <figure>
-                <img id="img-sparticipation" title="Zachary at Sparticipation promoting Spartan Linux Users Group" src="slug.jpg"
-                    alt="Zachary at Sparticipation promoting Spartan Linux Users Group">
-                <figcaption>
-                    <p>Zachary at Sparticipation promoting Spartan Linux Users Group</p>
-                </figcaption>
-            </figure>
-            <p>Zachary cofounded Spartan Linux Users Group (SLUG) Fall semester 2021. Zachary and his peers gathered due
-                to their shared interest of Linux. The group quickly registered as a student organization at Michigan
-                State University (MSU). Due to the club forming in the middle of a semester membership was slow to grow.
-                Eventually the club began to have more members join after Zachary and another member of the eBoard began
-                promoting the club. The club was promoted with poster spread across MSU’s campus and at a student club
-                event called Sparticipation. At Sparticipation Zachary engaged with many MSU students telling them about
-                all of the exciting things the club does. SLUG’s main project has been establishing mirrors of popular
-                Linux distributions (e.g., Arch Linux, Debian, and Ubuntu). The club is working to get the mirrors
-                officially recognized. In addition to their mirrors, the club meets every other week to have fun
-                discussing Linux related news. We also enjoy sharing our knowledge with each other and our personal
-                Linux projects. As gaming on Linux becomes more common due to the Steam Deck, made by Valve, the club
-                has been sharing excited to discuss how to get the best gaming experience on Linux. Information about
-                SLUG can be found at <a href=https://mirrors.egr.msu.edu>https://mirrors.egr.msu.edu</a>.</p>
+        <div class="flex-c f-space-around">
+            <article class="gap">
+                <h2>Undergrad Research at SPARTIE Lab</h2>
+                <address>
+                    <p>Written by Zachary Schultz<br>
+                        Published <time datetime="2022-10-13">10-13-2022</time></p>
+                </address>
+                <figure  class="fl">
+                    <img id="img-uuraf" title="Zachary in front of his UURAF poster" src="uuraf-2022.jpg"
+                        alt="Zachary in front of his UURAF poster">
+                    <figcaption>
+                        <p>Zachary in front of his UURAF poster</p>
+                    </figcaption>
+                </figure>
+                <p>After Zachary Schultz transferred to Michigan State University (MSU) from Oakland University, he got
+                    involved with research at SPARTIE Lab. On one of his first days as a transfer student, Zachary was
+                    sitting in MI 101. Dr. Ratan, the professor for MI 101, mentioned his podcast. After class Zachary
+                    went
+                    on YouTube to listen to some episodes of the podcast and he was immediately interested in the
+                    virtual
+                    reality research Dr. Ratan conducts. Fast forward and Zachary began getting involved doing research
+                    within SPARTIE Lab, Dr. Ratan’s lab. Zachary quickly became immersed in cutting edge virtual reality
+                    research. He worked with other undergraduate students assisting graduate students to develop a
+                    simulation for an experiment using Unity. Zachary and some of the other undergraduates wanted to
+                    share
+                    the super interesting research happening at SPARTIE Lab. MSU has a forum for undergraduates to share
+                    their research called University Undergraduate Research and Arts Forum (UURAF). Zachary designed a
+                    poster to describe the virtual reality experiment and the development tools the group uses. Zachary
+                    also
+                    took on an independent side research project looking into existing research regarding potential
+                    health
+                    risks associated virtual reality technologies. He turned his findings another poster. Zachary
+                    presented
+                    both posters at UURAF. As of <time datetime="2022-10">October 2022</time>, one of his research
+                    posters is on display within the College of
+                    Communication Arts and Sciences building at MSU. Zachary is still a member of SPARTIE Lab engaging
+                    with
+                    Virtual Reality research.</p>
+            </article>
+            <article class="gap">
+                <h2>Spartan Linux Users Group (SLUG)</h2>
+                <address>
+                    <p>Written by Zachary Schultz<br>
+                        Published <time datetime="2022-10-13">10-13-2022</time></p>
+                </address>
+                <figure class="fl">
+                    <img id="img-sparticipation" title="Zachary at Sparticipation promoting Spartan Linux Users Group"
+                        src="slug.jpg" alt="Zachary at Sparticipation promoting Spartan Linux Users Group">
+                    <figcaption>
+                        <p>Zachary at Sparticipation promoting Spartan Linux Users Group</p>
+                    </figcaption>
+                </figure>
+                <p>Zachary cofounded Spartan Linux Users Group (SLUG) Fall semester 2021. Zachary and his peers gathered
+                    due
+                    to their shared interest of Linux. The group quickly registered as a student organization at
+                    Michigan
+                    State University (MSU). Due to the club forming in the middle of a semester membership was slow to
+                    grow.
+                    Eventually the club began to have more members join after Zachary and another member of the eBoard
+                    began
+                    promoting the club. The club was promoted with poster spread across MSU’s campus and at a student
+                    club
+                    event called Sparticipation. At Sparticipation Zachary engaged with many MSU students telling them
+                    about
+                    all of the exciting things the club does. SLUG’s main project has been establishing mirrors of
+                    popular
+                    Linux distributions (e.g., Arch Linux, Debian, and Ubuntu). The club is working to get the mirrors
+                    officially recognized. In addition to their mirrors, the club meets every other week to have fun
+                    discussing Linux related news. We also enjoy sharing our knowledge with each other and our personal
+                    Linux projects. As gaming on Linux becomes more common due to the Steam Deck, made by Valve, the
+                    club
+                    has been sharing excited to discuss how to get the best gaming experience on Linux. Information
+                    about
+                    SLUG can be found at <a href=https://mirrors.egr.msu.edu>https://mirrors.egr.msu.edu</a>.</p>
                 <table class="centered">
                     <tr>
                         <th class="text-centered">Date</th>
@@ -103,7 +121,8 @@
                         <td class="text-centered">Gaming on Linux</td>
                     </tr>
                 </table>
-        </article>
+            </article>
+        </div>
         <section class="centered">
             <h2 class="title text-centered">Newsletter</h2>
             <form class="centered">

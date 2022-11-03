@@ -12,6 +12,10 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+figcaption{
+    font-size: 0.25em;
+}
+
 table {
     border: 0.15em;
     border-style: solid;
@@ -19,14 +23,21 @@ table {
     background-color: #f4f4f4;
 }
 
-nav > ul {
-    list-style-type: none;
+.sticky{
+    position: sticky;
+    background-color: #e3e3e3;
+    top: 0;
 }
 
-nav > ul > li {
-    display: inline;
-    margin: 0.5em;
+nav > ul {
+    list-style-type: none;
+    border: 0.15em;
+    border-style: solid;
+    border-radius: 0.25em;
+    background-color:#bababa;
     padding: 0.5em;
+    margin: 0.5em;
+    
 }
 
 .btn {
@@ -37,7 +48,7 @@ nav > ul > li {
     border-color: #a6dea2;
 }
 
-.btn > a:visited a:hover a:active {
+.btn > a {
     text-decoration: none;
     color: black;
 }
@@ -59,8 +70,8 @@ button[type="submit"]:hover {
 }
 
 .title {
-    border-top-style: solid;
-    padding-top: 0.75em;
+    border-bottom-style: solid;
+    padding-bottom: 0.75em;
 }
 
 #img-uuraf {
@@ -94,4 +105,22 @@ button[type="submit"]:hover {
 .title-header {
     margin: 2em;
     padding: 2em;
+}
+
+.flex-c {
+    display: flex;
+}
+
+.f-space-around{
+justify-content: space-around;
+}
+
+.fl{
+    padding-right: 0.1em;
+    padding-bottom: 0.1em;
+    float: left;
+}
+
+.gap {
+    margin: 1em;
 }
