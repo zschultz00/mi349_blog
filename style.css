@@ -124,3 +124,9 @@ justify-content: space-around;
 .gap {
     margin: 1em;
 }
+
+@media (max-width: 400px){
+    .flex-c {
+        display: block;
+    }
+}
