@@ -132,4 +132,15 @@ justify-content: space-around;
     body{
         font-size: 75%;
     }
+    .btn {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-radius: 0.5em;
+        border-color: #a6dea2;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        text-align:center;
+    }
+
 }
