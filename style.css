@@ -13,7 +13,7 @@ body {
 }
 
 figcaption{
-    font-size: 0.25em;
+    font-size: 0.75em;
 }
 
 table {
@@ -128,5 +128,8 @@ justify-content: space-around;
 @media (max-width: 400px){
     .flex-c {
         display: block;
+    }
+    body{
+        font-size: 75%;
     }
 }
